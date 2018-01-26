@@ -1,6 +1,10 @@
 服务端微专业环境安装说明
 =================================
 ++++++++++++++++
+
+2018-01-26修改：test
+
+
 ## 服务器
 
 本示例使用Ubuntu Server作为部署服务器。你可以选择使用我们已经安装好各个组件的示例镜像，也可以直接下载Ubuntu的原始镜像，按照安装步骤一步步安装。示例镜像基于VirtualBox，你需要根据下载的示例镜像导入虚拟机。
@@ -55,7 +59,9 @@
 
 ## 部署示例工程
 
-	% git clone https://git.oschina.net/server-dev/server-example.git	% mvn package	% cp server-example.war apache-tomcat-7.0.64/webapps	
+	% git clone https://git.oschina.net/server-dev/server-example.git
+	% mvn package
+	% cp server-example.war apache-tomcat-7.0.64/webapps	
 ## 访问
 	
 访问如下地址：http://10.240.155.161/server-example/，输入数据库插入的测试用户名（test_user）及密码（test_password），点击登录后，跳转到用户信息面。
